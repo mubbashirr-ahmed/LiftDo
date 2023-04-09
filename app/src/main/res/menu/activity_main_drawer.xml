@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/dashboard"
+        android:title="@string/menu_home" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+            <menu>
+                <item
+                    android:title="@string/account_settings"
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/account" />
+                <item
+                    android:title="@string/scheduled_rides"
+                    android:id="@+id/nav_scheduled"
+                    android:icon="@drawable/calendar"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:title="@string/terms_and_service"
+                    android:id="@+id/nav_tc"
+                    android:icon="@drawable/contact"
+                    />
+                <item
+                    android:title="@string/contact_us"
+                    android:id="@+id/nav_cu"
+                    android:icon="@drawable/support" />
+                <item
+                    android:id="@+id/nav_help"
+                    android:title="@string/help"
+                    android:icon="@drawable/help"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>

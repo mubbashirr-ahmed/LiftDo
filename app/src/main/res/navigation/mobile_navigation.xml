@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.liftdo.NewVersion.UI.Fragments.Drawer.AccountFragment"
+        android:label="Account Settings"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.liftdo.NewVersion.UI.Fragments.DashBoard.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_scheduled"
+        android:name="com.example.liftdo.NewVersion.UI.Fragments.Drawer.ScheduledFragment"
+        android:label="Scheduled Rides"
+        tools:layout="@layout/fragment_scheduled" />
+    <fragment
+        android:id="@+id/nav_tc"
+        android:name="com.example.liftdo.NewVersion.UI.Fragments.Drawer.TermsFragment"
+        android:label="@string/terms_amp_conditions"
+        tools:layout="@layout/fragment_terms" />
+    <fragment
+        android:id="@+id/nav_cu"
+        android:name="com.example.liftdo.NewVersion.UI.Fragments.Drawer.ContactUsFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.liftdo.NewVersion.UI.Fragments.Drawer.HelpFragment"
+        android:label="@string/how_it_works"
+        tools:layout="@layout/fragment_help" />
+
+</navigation>

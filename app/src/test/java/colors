@@ -1,0 +1,27 @@
+skin    #FFEFB1
+red     #E10E0E
+green   #003F41
+yellow  #FECD0C
+
+button.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        // Create a new instance of the fragment to display
+        MyFragment fragment = new MyFragment();
+
+        // Get the FragmentManager and start a transaction
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+
+        // Replace the contents of the container with the new fragment
+        transaction.replace(container.getId(), fragment);
+
+        // Add the transaction to the back stack and commit
+        transaction.addToBackStack(null);
+        transaction.commit();
+    }
+});
+
+
+
+

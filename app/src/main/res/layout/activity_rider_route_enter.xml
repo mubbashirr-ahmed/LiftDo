@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllActivities.MapActivities.RiderRouteEnter">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/mapRider"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        tools:context=".AllActivities.MapActivities.RiderRouteEnter" />
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/autoCompltFragRider"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edittext"
+        map:layout_constraintBottom_toTopOf="@+id/b_confirmRouteRider"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.5"
+        map:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_gpsRider"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/place"
+        android:src="@drawable/gps"
+        map:layout_constraintBottom_toTopOf="@+id/autoCompltFragRider"
+        map:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/b_confirmRouteRider"
+        android:layout_width="135dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/greenbuttons"
+        android:visibility="gone"
+        android:text="@string/confirm_route"
+        android:textColor="@color/white"
+        map:layout_constraintBottom_toBottomOf="@+id/mapRider"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.498"
+        map:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/b_clearMapR"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="#E10E0E"
+        android:foreground="@drawable/close"
+        android:visibility="gone"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

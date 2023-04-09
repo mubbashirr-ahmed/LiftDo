@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "159000883046",
+    "firebase_url": "https://liftdo-14bc6-default-rtdb.firebaseio.com",
+    "project_id": "liftdo-14bc6",
+    "storage_bucket": "liftdo-14bc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159000883046:android:a722feed8c23ff99a022a7",
+        "android_client_info": {
+          "package_name": "com.example.liftdo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159000883046-fvjhiuq90dgua78d2028gr3u2n0ic23t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpr_XMDXkeForbg_Hv5PmyiSNLuw7ds4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159000883046-fvjhiuq90dgua78d2028gr3u2n0ic23t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

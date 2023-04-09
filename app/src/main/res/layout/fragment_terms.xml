@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFB1"
+    tools:context=".NewVersion.UI.Fragments.Drawer.TermsFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/menub">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/terms_amp_service"
+            android:textColor="#003F41"
+            android:textSize="20sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="697dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="36dp"
+                android:text="@string/terms_amp_conditions"
+                android:textColor="#E10E0E"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.024"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="153dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lorem mi, iaculis et condimentum ac, molestie sit amet est. Pellentesque euismod lacinia metus, a hendrerit ipsum viverra luctus. Integer hendrerit tempor metus vitae gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec hendrerit a est in auctor. Phasellus dignissim tempor metus vitae ornare. Suspendisse hendrerit suscipit lorem sed lobortis. Fusce nec facilisis ligula, sed convallis magna."
+
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/privacy_policy"
+                android:textColor="#E10E0E"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis tortor libero, nec vehicula justo convallis nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse vitae sem ac ipsum ullamcorper dapibus. Vestibulum eleifend, massa sed tempor vulputate, velit mi varius lorem, eu imperdiet tortor enim in erat. Vivamus euismod egestas risus eget consectetur. Mauris turpis libero, pharetra accumsan ultricies et, consequat non purus. Ut interdum ante et justo porta dictum. Aliquam porttitor non quam imperdiet tempus. Mauris sit amet ex leo. Nulla mattis faucibus massa ac dapibus. Quisque nec sollicitudin sem. Proin ut egestas mi, vitae sodales sapien. Suspendisse nec maximus tortor, ut dignissim metus. Fusce luctus massa a vulputate sollicitudin.
+
+Maecenas viverra nulla sapien, ac efficitur diam tempus vitae. Suspendisse feugiat ipsum diam, ut egestas augue blandit at. Aliquam erat volutpat. Pellentesque dolor tellus, sollicitudin eu suscipit sed, porta sed arcu. Curabitur efficitur metus non nisl ultricies, at sagittis velit consequat. Quisque et aliquam augue. Proin vulputate, augue sit amet tincidunt iaculis, orci felis convallis lorem, nec consequat neque justo at elit. Curabitur accumsan nibh a quam viverra ultricies. Vestibulum vitae tellus et metus semper tincidunt. In accumsan ex sem, id rhoncus arcu luctus eu. Nam tempor tellus nec felis hendrerit, quis consectetur nisi facilisis. Vivamus facilisis urna at tortor molestie, et viverra elit posuere. In placerat posuere nunc, non commodo leo sagittis at. Quisque imperdiet at ipsum vitae ultricies."
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

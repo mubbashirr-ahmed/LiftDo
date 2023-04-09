@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/drawable-v24/menuwhite.xml" value="0.177" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/drawable/searchicon.xml" value="0.164" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/activity_bike_wait.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/activity_billing.xml" value="0.5" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/activity_car_wait.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/activity_commission_details.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/activity_main.xml" value="0.18962962962962962" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/activity_rider_registration.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/activity_send_otp.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/activity_signup.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/activity_verify_otp.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/fragment_choose_ride_type.xml" value="0.1" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/navigation_drawer.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/pager_lift_lo.xml" value="0.19895833333333332" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/pager_liftdo.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/test.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/layout/testroot.xml" value="0.2" />
+        <entry key="..\:/LiftDo Versions/LiftDo ver 1.1/liftdo/app/src/main/res/menu/side_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.06" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
